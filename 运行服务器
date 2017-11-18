@@ -1,0 +1,7 @@
+切户用户 su www。
+密码是Jianzheng008 然后cd /home/workspace/SchoolAssign完整路径
+
+第一种 进到目录后gradle bootRun 这个就是直接跑了
+第二种 打jar包 -x test 代表不做单元测试 gradle build -x test
+然后像运行普通jar包一样 跑起来 java -jar build/libs/配置的名称.jar
+重新登录 或敲下命令 source /home/shell/profile
